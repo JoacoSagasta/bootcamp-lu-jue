@@ -2,23 +2,20 @@
 
 ## Configuración inicial.
 
-'''sh
+```sh
 git config --global user.name "JoacoSagasta" 
 git config --global user.email "joacosagasta@hotmail.com"
-'''
-
+```
 ## Verificar si todo quedó bien o si hice estas configuraciones-
 
-'''sh
+```sh
 git config --get-regexp user
-'''
-
+```
 ## Crear un repositorio (Inicializar un repo)
 
-'''sh
+```sh
 git init
-'''
-## Areas del repositorio de GIT
+``` ## Areas del repositorio de GIT
 
 3 Áreas
 
@@ -37,28 +34,28 @@ git init
 
 ## Saber estado actual de los archivos
 
-'''sh
+```sh
 git status (estado en el Staging Area(SA))
 También sirve para ver en que rama está
-'''
-## Pasos para subir archivos
+```## Pasos para subir archivos
 
-'''sh
+```sh
 git add (subo al SA)
-'''
-
-'''sh
+```
+```sh
 git commit -m "escribo el mensaje acerca de que estoy subiendo"
-'''
-
-'''sh
+```
+```sh
 git log <!-- lo uso para ver la foto de todo lo que voy subiendo - Estado en el LocalRepo (LR)) --> DESPUES APRETAR LA LETRA "Q" para salir
 git log --oneline <!-- # para usar en una sola linea -->
-'''
-'''sh
+``````sh
 git restore README.md <!-- Recupero el archivo en la versión anterior -->
-'''
+```
 # Clase 16
 
 ## .gitignore
+
 Este archivo sirve para ignorar carpetas o archivos que no quiero que sean parte del repositorio. Normalmente va sobre la raíz del proyecto
+```sh
+touch.gitignore
+```
