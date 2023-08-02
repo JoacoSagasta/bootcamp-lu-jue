@@ -58,3 +58,7 @@ git log --oneline <!-- # para usar en una sola linea -->
 '''sh
 git restore README.md <!-- Recupero el archivo en la versión anterior -->
 '''
+# Clase 16
+
+## .gitignore
+Este archivo sirve para ignorar carpetas o archivos que no quiero que sean parte del repositorio. Normalmente va sobre la raíz del proyecto
