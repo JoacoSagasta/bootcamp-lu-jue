@@ -15,7 +15,8 @@ git config --get-regexp user
 
 ```sh
 git init
-``` ## Areas del repositorio de GIT
+``` 
+## Areas del repositorio de GIT
 
 3 Áreas
 
@@ -57,5 +58,22 @@ git restore README.md <!-- Recupero el archivo en la versión anterior -->
 
 Este archivo sirve para ignorar carpetas o archivos que no quiero que sean parte del repositorio. Normalmente va sobre la raíz del proyecto
 ```sh
-touch.gitignore
+touch .gitignore
 ```
+# Ayuda de GIT
+
+```sh
+git restore --help
+```
+
+## Agrego a mi repo local la url del repo remoto
+
+```sh
+git remote add origin https://github.com/JoacoSagasta/bootcamp-lu-jue.git
+```
+### Visualizar si se agregó o qué url tengo agregada
+
+```sh
+git remote -v
+```
+
