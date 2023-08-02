@@ -43,11 +43,8 @@ También sirve para ver en que rama está
 '''
 ## Pasos para subir archivos
 
-'''sh <!-- (subo al SA) -->
-git add <nombre-archivo> 
-git add index.htm
-git add README.md css/estilos.css
-git add . <!-- Con el punto subo todo al SA --> 
+'''sh
+git add (subo al SA)
 '''
 
 '''sh
@@ -55,7 +52,9 @@ git commit -m "escribo el mensaje acerca de que estoy subiendo"
 '''
 
 '''sh
-git log <!-- lo uso para ver la foto de todo lo que voy subiendo - Estado en el LocalRepo (LR)) -->
-git log --oneline <!-- # (para usar en una sola linea -->
+git log <!-- lo uso para ver la foto de todo lo que voy subiendo - Estado en el LocalRepo (LR)) --> DESPUES APRETAR LA LETRA "Q" para salir
+git log --oneline <!-- # para usar en una sola linea -->
 '''
-
+'''sh
+git restore README.md <!-- Recupero el archivo en la versión anterior -->
+'''
